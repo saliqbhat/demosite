@@ -1,0 +1,48 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+nav{
+display: flex;
+justify-content:center;
+background: grey;
+
+}
+nav ul{
+ margin: 0;
+ padding-left: 0;
+  list-style: none;
+  text-align: center;
+}
+ul li{
+  float: left;
+  background: grey;
+  width: 150px;
+  height: 40px;
+  line-height: 40px;
+  margin-right: 10px;
+  border: grey 1px solid;
+  text-transform: capitalize;
+}
+a{
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  display: block;
+}
+
+ul li ul li{
+  display: none;
+  position: relative;
+  z-index: 1;
+}
+ul li:hover ul li{
+  display: block;
+  background-color: grey;
+
+
+}
+ul li a:hover {
+  color: red;
+  background-color: cyan;
+}
